@@ -11,7 +11,8 @@ try:
     model_loaded = True
 except:
     model_loaded = False
-    print('\nERROR - Using mock model; module mh_z19 cannot be found\n')
+    print('\nERROR - Using mock model; module mh_z19 cannot be found!')
+    print('ERROR - Make sure to run the script with sudo privledges!')
 
 
 def get_sensor_data():
