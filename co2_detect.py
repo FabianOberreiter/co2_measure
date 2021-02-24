@@ -136,7 +136,7 @@ def create_parser():
         help="specify if data should be logged")
         
     parser.add_argument('-f', '--file', action='store', default = get_default_filename(), dest = 'log_file', 
-        help="specify a file to log to; file gets deleted if alreaedy exists")
+        help="specify a file to log to; file gets overwritten if already exists")
     
     return parser
 
