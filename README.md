@@ -1,7 +1,7 @@
-# co2_measure
-Python script to monitor and log co2 concentration; run with 
+# CO2_measure
+Python script to monitor and log co2-concentration; run with 
 
-sudo python3 co2_detect.py [-h] [-t TIME_SECONDS] [-i INTERVAL] [-c] [-l] [-f LOG_FILE]
+`sudo python3 co2_detect.py [-h] [-t TIME_SECONDS] [-i INTERVAL] [-c] [-l] [-f LOG_FILE]`
 
 
 
